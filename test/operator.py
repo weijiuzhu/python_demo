@@ -1,0 +1,22 @@
+a = 1
+while a < 7:
+    if a%2 == 1:
+        print("余数为1")
+    elif a%2 == 0:
+        print("余数为0")
+    a+= 1
+
+var = 200
+if (var == 100): print("变量 var 的值为100")
+print("Good bye!")
+
+for s in "HelloWorld!!" :
+    print("字母为：", s)
+
+str = [1, 2, 3, "s", "a", 'b', True]
+print(len(str))
+for s1 in str:
+    print(s1)
+
+str1 = {1, 2, "A", "B", 4}
+print(len(str1))
